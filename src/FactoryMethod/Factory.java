@@ -1,5 +1,8 @@
 package FactoryMethod;
 
-public class Factory{
-    
+
+
+public interface Factory {
+
+    public void generarInforme();
 }

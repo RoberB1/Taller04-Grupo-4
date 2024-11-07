@@ -8,7 +8,7 @@ package Decorator;
  *
  * @author rb122
  */
-public class Decorator extends Informe{
+public abstract class Decorator implements Informe{
     
     @Override
     public void createInforme(){
