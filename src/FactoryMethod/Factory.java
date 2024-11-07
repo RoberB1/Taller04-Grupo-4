@@ -1,8 +1,16 @@
 package FactoryMethod;
 
+import Decorator.Informe;
 
 
-public interface Factory {
+public abstract class Factory {
 
-    public void generarInforme();
+    public abstract Informe creaInforme();
+
+    public void usarInforme(){
+
+        Informe informe = creaInforme();
+        informe.createInforme();
+
+    }
 }
